@@ -1,0 +1,31 @@
+group 'kochetov'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile 'org.testng:testng:6.11'
+    testCompile 'com.codeborne:selenide:4.4.3'
+    testCompile 'com.galenframework:galen-java-support:2.0.3'
+}
+
+
+sourceSets {
+    test {
+        java {
+             srcDir 'test'
+        }
+    }
+}
+
+test {
+    useTestNG() {
+        suites 'testng.xml'
+    }
+}

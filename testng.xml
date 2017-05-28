@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TNKTest" parallel="false">
+    <test name="PlaykeySeleniumTest">
+        <classes>
+            <class name="TNKTest.MainPageTest"/>
+            <class name="TNKTest.NewsPageTest"/>
+            <class name="TNKTest.LayoutTest"/>
+        </classes>
+    </test>
+</suite>
