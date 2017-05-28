@@ -1,3 +1,3 @@
 # TKNOTests
-Функциональные тесты главной странички tankionline.com
-Запуск: gradle test -Dwebdriver.chrome.driver=<путь к драйверу> -Dselenide.browser=chrome -DTNKTestUrl="https://tankionline.com"
+Р¤СѓРЅРєС†РёРѕРЅР°Р»СЊРЅС‹Рµ С‚РµСЃС‚С‹ РіР»Р°РІРЅРѕР№ СЃС‚СЂР°РЅРёС‡РєРё tankionline.com
+Р—Р°РїСѓСЃРє: gradle test -Dwebdriver.chrome.driver=<РџСѓС‚СЊ Рє РґСЂР°Р№РІРµСЂСѓ> -Dselenide.browser=chrome -DTNKTestUrl="https://tankionline.com"
