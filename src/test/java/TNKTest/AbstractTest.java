@@ -27,7 +27,6 @@ abstract class AbstractTest {
         closeWebDriver();
     }
 
-    @Test
     public void not404TestWithHeader(){
         Page404 page404 = new Page404();
         page404.header.shouldBe(visible);
